@@ -1,0 +1,1 @@
+I plan to recreate a google page using the HTML/CSS skills I have learned thus far.
