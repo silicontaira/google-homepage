@@ -1,0 +1,13 @@
+/*This is the style sheet for the google-homepage*/
+
+#google-logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 250px;
+}
+#search-bar {
+    position: relative;
+    text-align: center;  
+    top: 250px;
+}
