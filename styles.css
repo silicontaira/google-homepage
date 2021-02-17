@@ -42,7 +42,14 @@ li {
     position: relative;
     top: 3px;
 }
-
+#google-container {
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+}
+#google-image {
+}
 
 /*.flex {
     display: flex;
