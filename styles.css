@@ -1,23 +1,49 @@
 /*This is the style sheet for the google-homepage*/
 
-#nav-bar li {
+
+/*.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#nav li {
     list-style-type: none;
     display: inline;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
 }
 a:link {
     text-decoration: none;
 }
+#left-nav {
+    float: left;
+}
+#right-nav {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#apps {
+    display: block;
+    top: 5px;
+}
+
 #google-logo {
     display: block;
     margin: auto;
     position: relative;
     top: 250px;
 }
+
+form {
+}
 #search-bar {
+    display: block;
+    margin: auto;
     position: relative;
-    text-align: center;  
     top: 250px;
-    padding: 10px;
 }
 
 input {
@@ -31,7 +57,20 @@ input {
 input:hover {
     box-shadow: 0 0 5px rgba(0,0,0,0.21);
 }
+#mic {
+    display: block;
+    transform: scale(0.03);
+    margin-left: 215px;
+    margin-top: -283px;
 
+}
+#search {
+    display: block;
+    transform: scale(0.1);
+    margin-top: -692px;
+    margin-left: 925px;
+
+}
 button {
     font-size: 14px;
     padding: 8px 14px 8px 14px;
@@ -49,5 +88,31 @@ button:hover {
 #container {
     position: relative;
     text-align: center;
-    top: 250px;
+    top: -150px;
 }
+
+#bot-nav {
+    background-color: rgba(189, 189, 189, 0.21);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 47px;
+}
+#bot-nav li {
+    list-style-type: none;
+    display: inline; 
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+}
+#left-footer {
+    padding-inline-start: 20px;
+    float: left;  
+}
+
+#right-footer {
+    float: right;
+    padding-inline-end: 40px;
+}
+*/
