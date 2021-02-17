@@ -1,5 +1,48 @@
 /*This is the style sheet for the google-homepage*/
 
+#head {
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    font-size: 14px;
+}
+a:link {
+    text-decoration: none;
+}
+li {
+    display: inline;
+    vertical-align: middle;
+    padding: 5px;
+}
+#left-head {
+    float: left;
+    padding-top: 12.1095px;
+    padding-bottom: 12.1095px;
+    margin-top: 10px;
+    padding-left: 20px;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10px;*/
+}
+#right-head {
+    margin-top: 10px;
+    float: right;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;*/
+}
+#google-app {
+    position: relative;
+    top: 3px;
+    transform: scale(1.3);
+}
+#google-profile {
+    position: relative;
+    top: 3px;
+}
+
 
 /*.flex {
     display: flex;
